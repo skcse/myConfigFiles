@@ -1,3 +1,4 @@
+alias editbash='gedit ~/.bash_aliases'
 alias rebash='. ~/.bashrc'
 alias hi='echo "oyeaa, hello from the other side"'
 alias iambored='man $(ls /bin | shuf | head -1)'
@@ -19,10 +20,14 @@ alias querybox='notify-send -i /usr/share/icons/breeze-dark/status/64/dialog-que
 # alias gitrm='git rm -r --cached $1'
 # alias compile='/media/shashwat/New\ Volume/devNhack/bashscripts/cmcm'
 alias gl='/media/shashwat/New\ Volume/devNhack/bashscripts/gl'
+alias lex-run='/media/shashwat/New\ Volume/devNhack/bashscripts/lex-run'
+alias octave='octave --no-gui -q'
 function cry() {
 	gcc $1 && ./a.out && rm ./a.out && echo 'cry done';
 }
+alias prolog='prolog -q'
 # startup commands
+LS_COLORS="$LS_COLORS:ow=01;34"
 shopt -s autocd
 bind TAB:menu-complete
 bind '"\e[A":history-search-backward'
