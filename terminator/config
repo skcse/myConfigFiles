@@ -2,11 +2,12 @@
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = mouse
   suppress_multiple_term_dialog = True
-  title_inactive_bg_color = "#2b5797"
-  title_inactive_fg_color = "#cccccc"
-  title_receive_bg_color = "#2d89ef"
+  tab_position = bottom
+  title_inactive_bg_color = "#002b36"
+  title_inactive_fg_color = "#eeeeee"
+  title_receive_bg_color = "#002b36"
   title_receive_fg_color = "#eeeeee"
-  title_transmit_bg_color = "#2d89ef"
+  title_transmit_bg_color = "#002b36"
   title_transmit_fg_color = "#eeeeee"
 [keybindings]
   close_term = <Primary>w
